@@ -5,30 +5,30 @@ This repository is for a weather app incorporating Web APIs and Asynchronous App
 You can download a zip file, fork this project, or clone with HTTPS.
 
 ### Prerequisites
-⋅⋅* Node
-⋅⋅* Express
+* Node
+* Express
 
 ### Dependencies
-⋅⋅* cors
-⋅⋅* body-parser
+* cors
+* body-parser
 
 ## Built with
-⋅⋅* Node
-⋅⋅* Express
-⋅⋅* Javascript
-⋅⋅* HTML
-⋅⋅* CSS
+* Node
+* Express
+* Javascript
+* HTML
+* CSS
 
 ## Author
-⋅⋅* Katherine Delorme - *katherinedelorme.com [katherinedelorme.com](katherinedelorme.com "Portfolio Website")*
+* Katherine Delorme - *[katherinedelorme.com](katherinedelorme.com "Portfolio Website")*
 
 ## License
-* This project is licensed under the MIT License - see the LICENSE file for details
-* This product is meant for educational purposes only.
+This project is licensed under the MIT License - see the LICENSE file for details
+This product is meant for educational purposes only.
 
-* The following was created for Katherine Delorme. It is not to be sold or reproduced. It may not be sold or offered for sale, or included with another software product offered for sale.
-* Designed by Katherine Delorme
-* Coded by Katherine Delorme
+The following was created for Katherine Delorme. It is not to be sold or reproduced. It may not be sold or offered for sale, or included with another software product offered for sale.
+Designed by Katherine Delorme
+Coded by Katherine Delorme
 
 ## Reach Katherine Delorme
 If you would like to contact someone regarding web design project or would like to hire me for work please send an email to info@katdelorme.com
