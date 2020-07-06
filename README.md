@@ -23,7 +23,7 @@ You can download a zip file, fork this project, or clone with HTTPS.
 * Katherine Delorme - *[katherinedelorme.com](katherinedelorme.com "Portfolio Website")*
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details
+This project is licensed under the MIT License - see the LICENSE file for details.
 This product is meant for educational purposes only.
 
 The following was created for Katherine Delorme. It is not to be sold or reproduced. It may not be sold or offered for sale, or included with another software product offered for sale.

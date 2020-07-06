@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Weather App - Katherine Delorme</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="description" content="Weather App "/>
+	<meta name="keywords" content="Weather App, Javascript, Node, Express, API, Fetch">
+	<meta name="author" content="Katherine Delorme">
+	<meta name="application-name" content="Weather App"/>
+	<!--Dublin Core-->
+	<meta name="DC.Title" content="Weather App - Katherine Delorme" />
+	<meta name="DC.Creator" content="Katherine Delorme" />
+	<meta name="DC.Subject" content="Weather" />
+	<meta name="DC.Description" content="Weather App" />
+	<meta name="DC.Type" content="App" />
+	<meta name="DC.Language" content="English" />
+	<!--Twitter Card: Summary-->
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@Katdelorme" />
+	<meta name="twitter:title" content="Weather App - Katherine Delorme" />
+	<meta name="twitter:description" content="Weather App" />
+	<meta name="twitter:image" content="">
+	<!--Facebook Open Graph-->
+	<meta property="og:url" content="" />
+	<meta property="og:type" content="webpage" />
+	<meta property="og:title" content="Weather App - Katherine Delorme" />
+	<meta property="og:description" content="Weather App" />
+	<meta property="og:image" content="" />
+	<!--robots index-->
+	<meta name="robots" content="noindex,nofollow" >
+	<!--favicon-->
+	<link rel="icon" type="image/png" href="assets/fav.png" />
+	<!--stylesheets-->
+	<link rel="stylesheet" href="css/styles.css" />
+	<!--fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<nav>
+			<h3>
+				<a href="#">Weather App</a>
+			</h3>
+			<div class="nav-link">
+				<ul id="nav-links">
+					  <li>Sunny or Cloudy</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+  <section class="container">
+		<h1 class="text-center heading">How's The Weather Up There?</h1>
+		<h2 class="text-center">The weather outside can some times be frightful. And also, oh delightful. You might need a place to go, in case it snows, in case it snows, in case it snows.</h2>
+		<p>It's not easy coordinating outfits. It'd suck if what you wear gets ruined by the weather. Find out the temperature is and see if your wardrobe will match.</p>
+	</section>
+
+	<section class="container-split">
+		<div class="left">
+			<div class="item zipcode">
+				<label for="zipcode">Zip code</label>
+				<input type="text" id="zip" placeholder="Enter Zip Code Here">
+			</div>
+			<div class="item clothing">
+				<label for="clothing">What outfits are you coordinating?</label>
+				<textarea class="pick" id="feelings" placeholder="I'm wearing..." rows="5" cols="50"></textarea>
+				<button id="generate" class="btn" type="submit">Let's Coordinate</button>
+			</div>
+		</div>
+		<div class="right">
+			<div class="item result">
+				<h3>Today is...</h3>
+				<div id="entryHolder" class="boxSide">
+					<div id="date"></div>
+					<div id="temp"></div>
+					<div id="content"></div>
+					<h4 id="city"></h4>
+					<h4 id="zipPlaced"></h4>
+					<h4 id="zipPlaced2"></h4>
+				</div>
+			</div>
+		</div>
+	</section>
+
+  <!-- Footer -->
+  <footer>
+  	<p class="text-center">Weather App</p>
+  </footer>
+	<!-- Footer End-->
+
+	<!-- JS File-->
+	<script src="app.js"></script>
+</body>
+</html>
