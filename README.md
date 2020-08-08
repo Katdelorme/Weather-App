@@ -20,7 +20,7 @@ You can download a zip file, fork this project, or clone with HTTPS.
 * CSS
 
 ## Author
-* Katherine Delorme - *[katherinedelorme.com](katherinedelorme.com "Portfolio Website")*
+* Katherine Delorme - *[katherinedelorme.com](http://katherinedelorme.com?utm_source=github&utm_medium=repo&utm_campaign=weather_app_readme "Portfolio Website")*
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
